@@ -1,0 +1,62 @@
+.titre::first-letter
+{
+    color: red;
+}
+.titre
+{
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+body
+{
+    background-color: bisque;
+}
+h2
+{
+    text-decoration-line: underline;
+    margin-top: 100px;
+}
+.one::first-letter
+{
+    color:red;
+}
+.bn
+{
+    font-size: 40px;
+}
+.gv
+{
+    text-decoration: red wavy underline;
+    margin: 0px 40px 0px;
+    font-size: 30px;
+}
+#form
+{
+    text-align: center;
+}
+label
+{
+    text-decoration-line: underline;
+}
+.egal
+{
+    font-size: 3em;
+    position: absolute;
+    right: 25vw;
+    transform:rotate(45deg)
+}
+.egal::after
+{
+    content:">";
+}
+.rond
+{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    position: absolute;
+    left: 73vw;
+    bottom: 80vh;
+}

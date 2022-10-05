@@ -1,0 +1,116 @@
+.space01
+{
+    /* margin 3px;
+    margin 2px 3px;
+    margin 3px 2px 1px;
+    margin 4px 3px 2px 1px;*/
+    margin: 0px 10px;
+    color:blue;
+}
+.space02
+{
+    border: solid;
+    padding: 2px;
+    
+}
+p
+{
+    line-height: 30px;
+    /*margin-left
+    margin-right
+    margin-top
+    margin-botom
+    margin: initial*/
+}
+.space03
+{
+    margin: 2em;
+}
+.space04
+{
+    text-indent: 3em;
+}
+.color-red
+{
+    color: red
+}
+.text-center
+{
+    text-align: center;
+}
+.carre
+{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.rectangle
+{
+    height: 50px;
+    width: 10%;
+    background-color: blue;
+}
+.div-mother-width
+{
+    border: solid 1px black;
+    width: 50%;
+}
+.margin-div
+{
+    margin-top:10px;
+}
+.rectangle-wewsport
+{
+    background-color: orange;
+    width: 50vw;
+    height: 50px;
+}
+.b-radius
+{
+    border-radius: 25%;
+}
+.b-circle
+{
+    border-radius: 50%;
+}
+.square-abs
+{
+    position: absolute;
+    top: 200px;
+    right: 50%;
+}
+.div-mother-relative
+{
+    border: 1px solid black;
+}
+.circle-relative
+{
+    position: relative;
+    bottom: -13px;
+    right: 12px;
+}
+.circle-relative02
+{
+    position: relative;
+    left: calc(50% - 25px);
+}
+.menu
+{
+    background-color: darkgoldenrod;
+    height: 75px;
+    position: sticky;
+    top: 0;
+}
+.deep
+{
+    z-index: -1;
+}
+.transform-carre-translation
+{
+    transform: translate(10px);
+}
+.transform-carre-rotation
+{
+    transform: rotate(45deg);
+    background-color: darkgoldenrod;
+}
