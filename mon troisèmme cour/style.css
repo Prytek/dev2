@@ -1,0 +1,58 @@
+*
+{
+    font-weight: bolder;
+}
+h1,h2,h3
+{
+    font-weight: normal;
+}
+ul > li
+{
+    color:purple;
+    background-color:steelblue
+}
+div + p
+{
+    color: #674a07;
+}
+div p
+{
+    color:#f79862;
+}
+.lien
+{
+    text-decoration: none;
+    color:skyblue;
+}
+a:hover
+{
+    color:slateblue
+}
+h1::first-letter,h2::first-letter,h3::first-letter
+{
+    color:#c39797
+
+}
+#super-titre::before
+{
+    content: "@";
+    color: #8895c2;
+}
+#super-titre::after
+{
+    content: "@";
+    color: red ! important;
+}
+input:checked + label
+{
+    background-color:salmon ;
+    color: white;
+}
+#papa :last-child
+{
+    color:yellowgreen;
+}
+#maman :nth-child(2)
+{
+    color:turquoise;
+}
