@@ -1,0 +1,18 @@
+#ajax
+{
+    text-align: center;
+}
+#doom
+{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+#send
+{
+    display: block;
+    margin: auto;
+    background-color: purple;
+    color: white;
+    border-radius: 0px 20px;
+}
