@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "font-one";
+    src: url('font/FuzzyBubbles-Regular.ttf');
+}
+.font-one
+{
+    font-family: "font-one", Arial, sans-serif;
+}
+.center
+{
+    text-align: center;
+}
+#rectanglemax
+{
+    height: 50px;
+    border: 4px solid darkblue;
+}
+#rectanglemin
+{
+    border: solid 4px green;
+    height: 50px;
+    width: 50%;
+    margin-top: 20px;
+}
+#cercle
+{
+    width: 50px;
+    height: 50px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 500px)
+{
+    #rectanglemax{
+        width: 50%;
+    }
+    
+
+    #rectanglemin{
+        width: 100%;
+    }
+}
+
+#rectangleRed
+{
+    border: 4px solid darkred;
+    height: 50px;
+}
+#rectangleVert
+{
+    border: 4px solid darkgreen;
+    height: 50px;
+    width: 50%;
+    margin-top: 10px;
+}
+#rectangleBleu1
+{
+    border: 4px solid darkblue;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+#rectangleBleu2
+{
+    border: 4px solid darkblue;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+#rectangleBleu3
+{
+    border: 4px solid darkblue;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+#conteneur
+{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.carreGold
+{
+    width: 40px;
+    height: 40px;
+    border: 4px solid darkgoldenrod;
+    margin: 10px;
+}
+@media screen and (max-width: 500px)
+{
+    #rectangleRed{
+        width: 50%;
+        margin: auto;
+        background-color: darkred;
+    }
+    
+
+    #rectangleVert{
+        margin-left: 50%;
+        border-radius: 50%;
+    }
+
+    #rectangleBleu1{
+        height: 50px;
+        width: 50px;
+        border: none;
+        background-color: darkblue;
+        border-radius: 50%;
+        margin-left: 25%;
+    }
+
+    #rectangleBleu2{
+        height: 50px;
+        width: 50px;
+        border: none;
+        background-color: darkblue;
+        border-radius: 50%;
+        margin-left:10px;
+    }
+
+    #rectangleBleu3{
+        height: 90px;
+        width: 90px;
+        border: none;
+        background-color: darkblue;
+        border-radius: 50%;
+        margin-left:27%;
+    }
+
+    #mickey{
+        display: flex;
+        margin-bottom: -5%;
+    }
+
+    #conteneur
+    {
+        display: none;
+    }
+    
+}
