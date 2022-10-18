@@ -1,0 +1,37 @@
+#titre
+{
+    text-align: center;
+}
+#div-mère
+{
+    display: flex;
+    flex-direction: column;
+}
+#rectangleOrange
+{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+}
+.carreVert
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.carreBleu
+{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#rectagleJaune
+{
+
+}
