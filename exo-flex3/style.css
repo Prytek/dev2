@@ -1,0 +1,111 @@
+.carreBleu
+{
+    height: 50px;
+    width: 80px;
+    background-color: darkblue;
+}
+.purple
+{
+    height: 50px;
+    width: 80px;
+    background-color: darkmagenta;
+}
+.carreVertF
+{
+    height: 50px;
+    width: 80px;
+    background-color: darkgreen;
+}
+.carreOrange
+{
+    height: 50px;
+    width: 80px;
+    background-color: darkorange;
+}
+.rondVert
+{
+    height: 50px;
+    width: 80px;
+    background-color:greenyellow;
+    border-radius: 50%;
+}
+.div-mom-un
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.div-mom-deux
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div-mom-trois
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div-mom-quatre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mom-un
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mom-deux
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mom-trois
+{
+    display: flex;
+    flex-direction: row;
+}
+.flex1
+{
+    flex: 1;
+}
+.flex2
+{
+    flex: 2;
+}
+.flex3
+{
+    flex: 3;
+}
+.flex4
+{
+    flex: 4;
+}
+.flex5
+{
+    flex: 5;
+}
+.mom
+{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center ;
+    font-size: 30px;
+}
+.un
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.deux
+{
+    
+}

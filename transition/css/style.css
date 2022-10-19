@@ -1,0 +1,40 @@
+h1
+{
+    text-align: center;
+}
+.square
+{
+    height: 50px;
+    width: 50px;
+    background-color: darkmagenta;
+    transition: border-radius 3s, height 3s, width 3s;
+}
+
+.square:hover
+{
+    border-radius: 50%;
+}
+
+#bouton
+{
+    margin-top: 5px;
+
+}
+
+.transformation-size
+{
+    height: 400px;
+    width: 500px;
+}
+.square2
+{
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+    margin:10px;
+    transition: magin-left 5s, border-radius 3s, height 3s, width 3s;
+}
+.square2:hover
+{
+    margin-left: 50%;
+}

@@ -1,0 +1,44 @@
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.div-square{
+    height: 50px;
+    width: 50px;
+}
+
+.div-all-width{
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+}
+
+.green{
+    background-color: green;
+}
+
+.div-green-justify{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div-blue-justify{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    width: 70%;
+    height: 50px;
+    background-color: yellow;
+}
