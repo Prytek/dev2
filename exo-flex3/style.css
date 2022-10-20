@@ -107,5 +107,16 @@
 }
 .deux
 {
-    
+    display: flex;
+    flex-direction: row;
+}
+.trois 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#div
+{
+    border: solid 4px darkcyan;
 }

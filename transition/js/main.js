@@ -20,5 +20,41 @@ var transition = document.getElementById('transition');
 var deactivation = document.getElementById('deactivation')
 
 transition.addEventListener("click", function(){
-    elementdeux.classList.add('tran')
+    elementdeux.classList.add('transition')
+})
+
+deactivation.addEventListener("click", function(){
+    elementdeux.classList.add('deactivation')
+})
+var titre = document.getElementById('is-click')
+
+titre.addEventListener("click", function(){
+    titre.innerHTML='ce titre est clické'
+})
+var doubleClick = document.getElementById('double-click');
+var doubleClickMessage = document.getElementById('double-click-message');
+
+doubleClick.addEventListener("dblclick", function()
+{
+    doubleClickMessage.innerHTML = " Cest double cliqué."
+})
+
+var inputFocus = document.getElementById("inputFocus");
+
+inputFocus.addEventListener('focus', function()
+{
+    inputFocus.placeholder = "salut"
+})
+
+var inputMessage = document.getElementById("input-message");
+
+inputFocus.addEventListener('input', function()
+{
+    inputMessage.innerHTML = inputFocus.value
+})
+
+var inputCheckbox = document.getElementById('input-checkbox');
+
+inputCheckbox.addEventListener('change', function(){
+ titre.classList.toggle('orange')
 })

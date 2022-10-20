@@ -1,0 +1,37 @@
+h1
+{
+    text-align: center;
+    text-decoration:underline;
+}
+
+#carre
+{
+    height: 100px;
+    width: 100px;
+    background-color: darkgoldenrod;
+   transition: border-radius;
+}
+.rond
+{
+    border-radius: 50%;
+}
+@font-face {
+    font-family: "alarm-clock";
+    src: url(alarm_clock/alarm\ clock.ttf);
+}
+#titre
+{
+    font-family: "alarm-clock", Arial, Helvetica, sans-serif;
+}
+#clock
+{
+    height: 500px;
+    width: 800px;
+    background-color: darkcyan;
+    font-size: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "alarm-clock", Arial, Helvetica, sans-serif;
+}
